@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    background-image: url("bruceflying.jpg");
+    background-size: cover;
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh
+}
+.container {
+    background: white;
+    max-width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#count-el {
+    color: blue;
+}
+
+#save-el {
+
+text-align: center;
+color: #FCDB00;
+font-family: impact;
+font-size: 30px;
+text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+-webkit-text-fill-color: #FCDB00;
+-webkit-text-stroke: 2px black;
+    
+}
+
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: blue;
+ -webkit-text-stroke: 2px black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+      -webkit-text-fill-color: blue;
+ -webkit-text-stroke: 2px black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    margin-bottom: 5px;
+   border-radius: 8px;
+   
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+} 
+
+
+
+
+
